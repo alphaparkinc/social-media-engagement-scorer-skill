@@ -1,0 +1,36 @@
+{
+  "name": "social-media-engagement-scorer-skill",
+  "version": "1.0.0",
+  "description": "Calculates estimated interaction rates for draft social copy based on readability metrics and keyword usage indicators.",
+  "author": "alphaparkinc",
+  "category": "marketing",
+  "tags": [
+    "social-media",
+    "engagement",
+    "marketing",
+    "copywriting",
+    "analytics"
+  ],
+  "inputs": {
+    "post_copy": {
+      "type": "string",
+      "description": "Draft post text content."
+    },
+    "has_images": {
+      "type": "boolean",
+      "description": "True if an image asset is attached to the post."
+    }
+  },
+  "outputs": {
+    "engagement_score": {
+      "type": "number",
+      "description": "Calculated score from 0.0 to 10.0."
+    },
+    "suggestions": {
+      "type": "array",
+      "description": "Actionable post copy improvement points."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
