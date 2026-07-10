@@ -1,4 +1,4 @@
-# social-media-engagement-scorer-skill
+# genpark-social-media-engagement-scorer-skill
 
 > **GenPark AI Agent Skill** -- Social copy engagement analyzer.
 
