@@ -1,8 +1,8 @@
 {
   "name": "social-media-engagement-scorer-skill",
   "version": "1.0.0",
-  "description": "Calculates estimated interaction rates for draft social copy based on readability metrics and keyword usage indicators.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Calculates estimated interaction rates for draft social copy based on readability metrics and keyword usage indicators.",
+  "author": "genpark",
   "category": "marketing",
   "tags": [
     "social-media",
